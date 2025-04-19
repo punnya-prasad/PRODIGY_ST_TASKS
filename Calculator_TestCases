@@ -1,0 +1,82 @@
+**Test Case 1**
+  Test Case ID: TC001
+  Test Description: Addition of 2 positive integers
+  Preconditions: Calculator Open and displays 0
+  Test Steps:
+    1. Press **10**
+    2. Press "+"
+    3. Press **30**
+    4. Press "="
+  **Expected Result**: Display shows **40**
+
+**Test Case 2**
+  Test Case ID: TC002
+  Test Description: Subtraction of a smaller number from larger number
+  Preconditions: Calculator ready for input
+  Test Steps:
+    1. Press **10**
+    2. Press "-"
+    3. Press **3**
+    4. Press "="
+  **Expected Result**: Display shows **7**
+
+**Test Case 3**
+  Test Case ID: TC003
+  Test Description: Multiplication of 2 decimal numbers
+  Preconditions: Calculator ready for input
+  Test Steps:
+    1. Press **10**
+    2. Press "."
+    3. Press **3**
+    4. Press "x"
+    5. Press **2**
+    6. Press "."
+    7. Press **0**
+    8. Press "="
+  **Expected Result**: Display shows **20.6**  
+  
+**Test Case 4**
+  Test Case ID: TC004
+  Test Description: Division by zero
+  Preconditions: Calculator ready for input
+  Test Steps:
+    1. Press **10**
+    2. Press "/"
+    3. Press **0**
+    4. Press "="
+  **Expected Result**: Display shows error **Error/Cannot divide by Zero**
+
+**Test Case 5**
+  Test Case ID: TC005
+  Test Description: Negative numbers usage
+  Preconditions: Calculator ready for input
+  Test Steps:
+    1. Press "-"
+    2. Press **4**
+    3. Press "+"
+    4. Press **3**
+    5. Press "="
+  **Expected Result**: Display shows **-1**
+
+**Test Case 6**
+  Test Case ID: TC006
+  Test Description: Inputting non-numeric characters
+  Preconditions: Calculator not ready for input
+  Test Steps:
+    1. Try to insert via keyboard (if possible)
+  **Expected Result**: Display does not accept input, possible error
+
+**Test Case 7**
+  Test Case ID: TC007
+  Test Description: BODMAS Operation
+  Preconditions: Calculator ready for BODMAS 
+  Test Steps:
+    1. Press **10**
+    2. Press "+"
+    3. Press **3**
+    4. Press "x"
+    5. Press **2**
+    6. Press "="
+  **Expected Result**: Display shows **26**
+
+  
